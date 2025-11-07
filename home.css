@@ -1,0 +1,76 @@
+/* Background Image and General layout*/
+body {
+   
+font-family: Arial, sans-serif;
+background-image: url('https://cdn.vanguardngr.com/wp-content/uploads/2020/05/Obasanjo-Library.jpg');
+background-size: cover;
+background-attachment: fixed;
+margin:0;
+color:#222;
+
+
+}
+
+/*header and Navigation */
+header {
+    background-color:rgba(0, 0, 0, 0.7);
+    color: white;
+    padding:20px;
+    text-align:center;
+}
+nav ul {
+    list-style:none;
+    padding:0;
+
+}
+nav ul li {
+    display:inline-block;
+    margin:0 15px;
+
+}
+nav ul li a {
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+
+}
+nav ul li a:hover {
+    color: #ffd700;
+
+}
+/*Main Content */
+#main-content, .content {
+    background-color:rgba(255,255,255,0.9);
+    padding: 20px;
+    margin: 20px auto;
+    width:80%;
+    border-radius: 8px;
+}
+
+/*form styling*/
+.form-section {
+    background-color:rgba(240,240,240,0.95);
+    padding:20px;
+    width: 80%;
+    margin: 20px auto;
+    border-radius:8px;
+}
+form label {
+    font-weight:bold;
+
+}
+button {
+    background-color: #0073e6;
+    color: white;
+    border:none;
+    padding:10px 20px;
+    cursor: pointer;
+
+}
+button:hover {
+    background-color:#222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+}
